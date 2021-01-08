@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+	font-family: 'Lato', sans-serif;
+}
+
+div#content.flyer-welcome {
+	background-image: url(../images/solutions-welcome-cover-blurred.png);
+	background-size: cover;
+}
+
+div#content.left {
+	width: 50%;
+	margin: auto;
+}
+
+div#content.left ol {
+	font-size: 18px;
+}
+
+div#content.left p {
+	font-size: 18px;
+}
+
+div#content.left h1 {
+	margin-bottom: 25px;
+}
+
+div#content.left div#donation-box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid black;
+}
+
+div#content.left div#donation-box:first-of-type {
+	border-top: 2px solid black;
+}
+
+div#content.left div#donation-box p {
+	font-size: 20px;
+	margin: 5px 0px;
+	line-height: 125%;
+}
+
+div#content.left div#donation-box p.header {
+	font-size: 24px;
+	margin: 5px 0px 8px;
+}
+
+div#content.left div#donation-box p.header a {
+	font-size: 24px;
+	margin: 5px 0px 8px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #061a40;
+}
+
+div#content.left div#donation-box p.header a:hover {
+	text-decoration: underline;
+	color: #c67d42;
+}
+
+div.social-media {
+	margin-top: 25px;
+}

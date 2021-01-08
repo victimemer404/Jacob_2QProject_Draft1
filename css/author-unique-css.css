@@ -1,0 +1,79 @@
+/* --- FONT IMPORTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+div#content.left {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+div#content.normal {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 60px;
+}
+
+div.welcome-page {
+	background-image: url(../images/pisay-kalachuchi-grayscale-blurred.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -200px;
+}
+
+div#content.left > img {
+	filter: grayscale(1);
+	z-index: 998;
+}
+
+.sprite-contact {
+    background-image: url(../images/contact-spritesheet-2.png);
+    background-repeat: no-repeat;
+    display: block;
+	transform: scale(0.5);
+	margin-left: -3.25%;
+}
+
+.sprite-discord {
+    background-position: -10px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-facebook {
+    background-position: -138px 0;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-github {
+    background-position: -5px -134px;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-instagram {
+    background-position: -138px -133px;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-linkedin-logo {
+   background-position: -5px -266px;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-messenger {
+    background-position: -138px -266px;
+	width: 128px;
+	height: 128px;
+}
+
+.sprite-twitter {
+    background-position: -5px -399px;
+	width: 128px;
+	height: 128px;
+}

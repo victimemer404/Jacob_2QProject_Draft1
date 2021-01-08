@@ -1,0 +1,63 @@
+div.welcome-page {
+	background: url(../images/index-frontliners1-blurred.png);
+	background-size: cover;
+}
+
+div#content span.learn-more {
+    font-family: 'Lato', sans-serif;
+    color: #061A40;
+    margin: 0px;
+	display: block;
+    text-decoration:underline;
+}
+
+div#content.left span.learn-more:hover {
+	display: block;
+	color: #c67d42;
+	-webkit-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	-mos-transform: scale(1.1, 1.1);		
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+div#content p {
+    font-size: 18px;
+}
+
+div#content span.learn-more a{
+    text-decoration: none;
+}
+
+div#content span {
+    margin: 30px;
+    font-size: 16px;
+}
+
+/*fix images and transform*/
+@media screen and (max-width: 1260px) {
+    div#content.left img.annotation {
+        float: none;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        height: 90%;
+        padding: 0px;
+    }
+	
+	div#content.left span.learn-more:hover {
+		display: block;
+	}
+	
+	div#content.left span.learn-more:hover {
+		-webkit-transform: none;
+		-ms-transform: none;
+		-mos-transform: none;
+		-o-transform: none;
+		transform: none;
+	}
+}
+
+@media screen and (max-width: 960px) {
+    /* Fill when needed */
+}

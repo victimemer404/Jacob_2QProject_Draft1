@@ -1,0 +1,8 @@
+div#content.flyer-welcome {
+	background-image: url(../images/solutions-welcome-cover-blurred.png);
+	background-size: cover;
+}
+
+div#content > h1 {
+	margin-bottom: 25px;
+}

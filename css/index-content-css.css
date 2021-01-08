@@ -1,0 +1,390 @@
+/* --- FONT IMPORTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+/*General Style Charts*/
+div h1 {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+div h2 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+div p {
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: inherit;
+	text-decoration-color: #c67d42;
+}
+
+/*Make divs span whole width*/
+html {
+    margin: 0;
+	padding: 0;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+    background-color: #e0e0d1;
+    overflow-x: hidden;
+}
+
+/*Style navigation bar*/
+div#header {
+    display: block;
+}
+
+div#navigation-bar {
+    background-color: #061A40;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index: 999;
+}
+
+div#navigation-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #061A40;
+}
+
+div#navigation-bar li {
+    height: 58px;
+}
+
+div#navigation-bar li.home{
+    background-color: #061A40;
+    float: left;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+div#navigation-bar li.right-navigation-bar {
+    background-color: #061A40;
+    float: right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Lato', sans-serif;
+}
+
+div#navigation-bar li.active {
+    background-color: #CBE1F6;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+div#navigation-bar li.last-child {
+    padding-right: 10px;
+}
+
+div#navigation-bar li a{
+    background-color: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+div#navigation-bar li a:hover {
+	transform: scale(0.9);
+	color: darkgrey;
+}
+
+div#navigation-bar li.active a:hover {
+	transform: none;
+	color: #E3451F;
+}
+
+div#navigation-bar li.active a{
+    background-color: #CBE1F6;
+    color: black;
+}
+
+div#navigation-bar ul li.home a:hover {
+	display: block;
+	transform: scale(1.05);
+}
+
+/*image Sprite Creation*/
+.sprite {
+    background-image: url(../images/social-media-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.facebook-sprite {
+	width: 64px;
+    height: 64px;
+    background-position: -5px -5px;
+	transform: scale(0.75);
+}
+
+.facebook-sprite:hover {
+	width: 64px;
+    height: 64px;
+    background-position: -79px -5px;
+	transform: scale(0.65);
+}
+
+.instagram-sprite {
+	width: 64px;
+    height: 64px;
+    background-position: -5px -79px;
+	transform: scale(0.75);
+}
+
+.instagram-sprite:hover {
+	width: 64px;
+    height: 64px;
+    background-position: -79px -79px;
+	transform: scale(0.65);
+}
+
+.twitter-sprite {
+	width: 64px;
+    height: 64px;
+    background-position: -153px -5px;
+	transform: scale(0.75);
+}
+
+.twitter-sprite:hover {
+	width: 64px;
+    height: 64px;
+    background-position: -153px -79px;
+	transform: scale(0.65);
+}
+
+div#content .social-media {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#content .social-media li {
+	list-style-type: none;
+	display: inline;
+}
+
+div#content .social-media li a {
+	list-style-type: none;
+	display: inline;
+}
+
+div#content .social-media li a i {
+	display: inline-block;
+}
+
+/*Style content pages*/
+div.dummy {
+    height: 70px;
+}
+
+div#content p {
+    font-size: 20px;
+}
+
+div#image-caption {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+div#image-caption p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+div.welcome-page h1 {
+	font-family: 'Sriracha', cursive;
+	font-size: 54px;
+	line-height: 105%;
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+
+div.welcome-page h2 {
+	font-family: 'Sriracha', cursive;
+	font-size: 48px;
+	color: white;
+	text-shadow: 2px 2px gray;
+	margin-top: -15px;
+}
+            
+div.welcome-page p {
+	color: white;
+	text-shadow: 2px 2px grey;
+}
+
+div#content.flyer-welcome {
+    color: black;
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+div#content.flyer-welcome div.flyer-excellence-margin {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+div#content.flyer-welcome div.margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div#content.flyer-welcome h1 {
+    text-align: center;
+}
+
+div#content.flyer-welcome p {
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 20px;
+    text-align: center;
+}
+
+div#content.flyer-welcome a {
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+
+div#content.left {
+    background-color: #e0e0d1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: block;
+}
+
+div#content.left img.annotation {
+    align-content: left;
+    float: left;    
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 300px;
+}
+
+div#content.left > img.flyer {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+div#content table#data {
+    border-collapse: collapse;
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+}
+
+div#content table#data caption{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+div#content table#data th, td{
+    border-collapse: collapse;
+    border: 1px solid;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+}
+
+div#content table#data tr td.first {
+    width: 15%;
+}
+
+div#content table#data tr td.second {
+    width: 60%;
+}
+
+div#content table#data tr td.second {
+    width: auto;
+}
+
+div#content.left ul {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+div#footer {
+    font-family: 'Lato', sans-serif;
+    background-color: #061A40;
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/*fix images */
+@media screen and (max-width: 1260px) {
+	div.flyer-welcome h1 {
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+    
+    div#content.left h2 {
+        padding-top: 30px;
+    }
+}
+
+/*make hide images + other magic */
+@media screen and (max-width: 960px) {
+    div#navigation-bar li.home {
+        display: none;
+    }
+    
+    div.flyer-welcome h1 {
+        font-size: 48px;
+		margin-left: 20%;
+		margin-right: 20%;
+    }
+	
+	div.welcome-page h2 {
+		font-family: 'Sriracha', cursive;
+		font-size: 36px;
+		color: white;
+		text-shadow: 2px 2px gray;
+		margin-top: -5px;
+	}
+    
+    div#content.left {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    div#content.left img.annotation {
+        display: none;
+    }
+    
+    div#content.flyer-welcome p {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 16px;
+    }
+}
